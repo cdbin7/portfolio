@@ -176,6 +176,14 @@ p {
   border-radius: var(--size-border-radius);
 }
 
+.home__contact:hover {
+  color: var(--color-dark-pink);
+  border-color: var(--color-dark-pink);
+  transform: scale(1.2);
+  transition: all var(--animation-duration) ease;
+  opacity: 1;
+}
+
 /* Section Common*/
 
 .section {
