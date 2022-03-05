@@ -183,33 +183,48 @@
       <h1>My work</h1>
       <h3>Projects</h3>
       <div class="work__categories">
-        <button class="category__btn active">All<span class="category__count">8</span></button>
-        <button class="category__btn">Front-end<span class="category__count">5</span></button>
-        <button class="category__btn">Back-end<span class="category__count">3</span></button>
+        <button class="category__btn active" data-filter="*">All<span class="category__count">3</span></button>
+        <button class="category__btn" data-filter="front-end">Front-end<span class="category__count">1</span></button>
+        <button class="category__btn" data-filter="back-end">Back-end<span class="category__count">1</span></button>
+        <button class="category__btn" data-filter="both">Both<span class="category__count">2</span></button>
       </div>
   
       <!-- 여기에 github link 올리고, 내 프로젝트 스크린샷 올리기 -->
       <div class="work__projects">
         <a 
-        href="" 
+        href="https://github.com/cdbin7/Be-My-Furry" 
         class="project" 
         target="blank"
+        data-type="both"
         >
           <img class="project__img" src="imgs/projects/project1.png" alt="Github">
           <div class="project__description">
             <h3>Github link</h3>
-            <span>Clone coding with HTML and CSS</span>
+            <span>Ruby on Rails & React </span>
           </div>
         </a>
         <a 
-        href="" 
+        href="https://github.com/cdbin7/codecore_group_project" 
         class="project" 
         target="blank"
+        data-type="both"
         >
           <img class="project__img" src="imgs/projects/project2.png" alt="Github">
           <div class="project__description">
             <h3>Github link</h3>
-            <span>HTML, CSS with media query</span>
+            <span>Group Project - Welcome Page & Enrollment page</span>
+          </div>
+        </a>
+        <a 
+        href="https://github.com/cdbin7/blog_on_rails" 
+        class="project" 
+        target="blank"
+        data-type="back-end"
+        >
+          <img class="project__img" src="imgs/projects/project3.png" alt="Github">
+          <div class="project__description">
+            <h3>Github link</h3>
+            <span>Ruby on Rails</span>
           </div>
         </a>
       </div>
